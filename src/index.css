@@ -1,0 +1,30 @@
+/* - Mobile: 375px
+- Desktop: 1440px
+
+- Homepage Items: 14px
+- Detail Page: 16px 
+*/
+
+html {
+  /* (Dark Mode Elements) */
+  --blue-darkmode: hsl(209, 23%, 22%);
+
+  /* (Dark Mode Background) */
+  --dark-blue-darkmode: hsl(207, 26%, 17%);
+
+  /* (Light Mode Text) */
+  --dark-blue-lightmode: hsl(200, 15%, 8%);
+
+  /* (Light Mode Input) */
+  --dark-gray-lightmode: hsl(0, 0%, 52%);
+
+  /* (Light Mode Background) */
+  --light-gray-lightmode: hsl(0, 0%, 98%);
+
+  /* (Dark Mode Text & Light Mode Elements) */
+  --white: hsl(0, 0%, 100%); 
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
