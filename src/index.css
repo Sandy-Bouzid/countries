@@ -27,4 +27,111 @@ html {
 
 body {
   font-family: 'Nunito Sans', sans-serif;
+  color: var(--dark-blue-lightmode);
 }
+
+main {
+  background-color: var(--light-gray-lightmode);
+  padding: 3rem 4rem;
+}
+
+/***** HEADER *****/
+
+header {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.5rem 0;
+}
+
+.mode {
+  display: flex;
+  
+  border-radius: 10px;
+}
+
+button {
+  font-size: 1.20rem;
+  font-weight: bold;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--dark-blue-lightmode);
+}
+
+.mode:hover{
+  background-color: var(--dark-gray-lightmode);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+/***** HOME SEARCH *****/
+
+.search{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+
+#searchbar, #select {
+  color: var(--dark-gray-lightmode);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+#searchbar {
+  width: 35%;
+}
+
+/***** HOME CARD *****/
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  margin:  50px 0 50px 0;
+  border-radius: 5px;
+  background-color: var(--white);
+}
+.cardData {
+  padding: 0 1rem;
+}
+p{
+  line-height: 1.5rem;
+}
+span {
+  font-weight: bold;
+}
+
+.flag img{
+  width: 300px;
+  height: 200px;
+  border-radius: 5px 5px 0 0 ;
+}
+/***** COUNTRY *****/
